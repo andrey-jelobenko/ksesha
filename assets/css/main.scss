@@ -45,7 +45,12 @@ header {
 .card {
   min-height: 250px;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 102%;
+  background-position: center;
+  transition: background-size 1s;
+}
+.card:hover {
+  background-size: 120%;
 }
 .card-bg-1 {
   background-image: url(https://picsum.photos/420/250?random=1);

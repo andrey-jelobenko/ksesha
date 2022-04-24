@@ -55,7 +55,14 @@ header {
 .card {
   min-height: 250px;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 102%;
+  background-position: center;
+  -webkit-transition: background-size 1s;
+  transition: background-size 1s;
+}
+
+.card:hover {
+  background-size: 120%;
 }
 
 .card-bg-1 {
