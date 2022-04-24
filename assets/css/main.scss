@@ -35,6 +35,13 @@ header {
   border-right: 2px solid black;
 }
 
+.chapter:hover {
+  cursor: pointer;
+}
+.chapter:hover {
+  color: gray;
+}
+
 .intro {
   background: url(https://picsum.photos/1300/200) center;
   background-repeat: no-repeat;
@@ -78,4 +85,10 @@ header {
 .card-img-overlay:hover {
   backdrop-filter: none;
   cursor: pointer;
+}
+.card-img-overlay-js {
+  backdrop-filter: none;
+}
+.card-js {
+  background-size: 120% 120%;
 }
