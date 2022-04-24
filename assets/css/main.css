@@ -52,6 +52,8 @@ header {
   background-size: cover;
   width: 100%;
   min-height: 200px;
+  -webkit-box-shadow: 0 0 10px 0 black;
+          box-shadow: 0 0 10px 0 black;
 }
 
 .card {
