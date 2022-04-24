@@ -23,6 +23,7 @@ header {
 .navigation {
   clear: both;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   font-weight: bold;
 }
@@ -35,7 +36,7 @@ header {
 }
 
 .intro {
-  background-image: url(https://picsum.photos/1300/200);
+  background: url(https://picsum.photos/1300/200) center;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -45,12 +46,12 @@ header {
 .card {
   min-height: 250px;
   background-repeat: no-repeat;
-  background-size: 102%;
+  background-size: 102% 102%;
   background-position: center;
   transition: background-size 1s;
 }
 .card:hover {
-  background-size: 120%;
+  background-size: 120% 120%;
 }
 .card-bg-1 {
   background-image: url(https://picsum.photos/420/250?random=1);
