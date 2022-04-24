@@ -1,0 +1,67 @@
+body {
+  display: grid;
+  min-height: 100vh;
+  grid-template-rows: min-content auto min-content;
+  background-color: #f2e9d8;
+  font-size: 16px;
+}
+
+header {
+  background-color: #f3deb3;
+  box-shadow: 0 0 15px 0 black;
+  z-index: 99;
+}
+
+.logo {
+  float: left;
+}
+
+.slogan {
+  font-size: 24px;
+}
+
+.navigation {
+  clear: both;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+}
+.navigation li {
+  padding: 0 25px 3px;
+  margin-bottom: 7px;
+}
+.navigation li:not(:last-child) {
+  border-right: 2px solid black;
+}
+
+.intro {
+  background-image: url(https://picsum.photos/1300/200);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 200px;
+}
+
+.card {
+  min-height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card-bg-1 {
+  background-image: url(https://picsum.photos/420/250?grayscale&blur=2&random=1);
+}
+.card-bg-2 {
+  background-image: url(https://picsum.photos/420/250?grayscale&blur=2&random=2);
+}
+.card-bg-3 {
+  background-image: url(https://picsum.photos/420/250?grayscale&blur=2&random=3);
+}
+.card-bg-4 {
+  background-image: url(https://picsum.photos/420/250?grayscale&blur=2&random=4);
+}
+.card-bg-5 {
+  background-image: url(https://picsum.photos/420/250?grayscale&blur=2&random=5);
+}
+.card-bg-6 {
+  background-image: url(https://picsum.photos/420/250?grayscale&blur=2&random=6);
+}
