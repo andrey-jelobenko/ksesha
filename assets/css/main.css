@@ -59,26 +59,37 @@ header {
 }
 
 .card-bg-1 {
-  background-image: url(https://picsum.photos/420/250?grayscale&blur=2&random=1);
+  background-image: url(https://picsum.photos/420/250?random=1);
 }
 
 .card-bg-2 {
-  background-image: url(https://picsum.photos/420/250?grayscale&blur=2&random=2);
+  background-image: url(https://picsum.photos/420/250?random=2);
 }
 
 .card-bg-3 {
-  background-image: url(https://picsum.photos/420/250?grayscale&blur=2&random=3);
+  background-image: url(https://picsum.photos/420/250?random=3);
 }
 
 .card-bg-4 {
-  background-image: url(https://picsum.photos/420/250?grayscale&blur=2&random=4);
+  background-image: url(https://picsum.photos/420/250?random=4);
 }
 
 .card-bg-5 {
-  background-image: url(https://picsum.photos/420/250?grayscale&blur=2&random=5);
+  background-image: url(https://picsum.photos/420/250?random=5);
 }
 
 .card-bg-6 {
-  background-image: url(https://picsum.photos/420/250?grayscale&blur=2&random=6);
+  background-image: url(https://picsum.photos/420/250?random=6);
+}
+
+.card-img-overlay {
+  -webkit-backdrop-filter: blur(2px) grayscale(100%);
+          backdrop-filter: blur(2px) grayscale(100%);
+}
+
+.card-img-overlay:hover {
+  -webkit-backdrop-filter: none;
+          backdrop-filter: none;
+  cursor: pointer;
 }
 /*# sourceMappingURL=main.css.map */
