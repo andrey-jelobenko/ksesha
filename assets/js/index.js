@@ -9,18 +9,21 @@ const chapter = [
   [".chapter-6", ".card.card-bg-6"],
 ];
 
+function handleMouseOverOut(card_bgEl, card_backdropEl) {
+  card_bgEl.classList.toggle("card-js");
+  card_backdropEl.classList.toggle("card-img-overlay-js");
+}
+
 for (let i = 0; i < chapter.length; i++) {
   const chapterEl = document.querySelector(chapter[i][0]);
   const card_bgEl = document.querySelector(chapter[i][1]);
-  const card_backdrop = document.querySelector(
+  const card_backdropEl = document.querySelector(
     chapter[i][1] + " .card-img-overlay"
   );
   chapterEl.addEventListener("mouseover", function () {
-    card_bgEl.classList.toggle("card-js");
-    card_backdrop.classList.toggle("card-img-overlay-js");
+    handleMouseOverOut(card_bgEl, card_backdropEl);
   });
   chapterEl.addEventListener("mouseout", function () {
-    card_bgEl.classList.toggle("card-js");
-    card_backdrop.classList.toggle("card-img-overlay-js");
+    handleMouseOverOut(card_bgEl, card_backdropEl);
   });
 }
