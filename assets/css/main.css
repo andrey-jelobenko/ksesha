@@ -69,12 +69,16 @@ header {
   background-repeat: no-repeat;
   background-size: 102% 102%;
   background-position: center;
-  -webkit-transition: background-size 1s;
-  transition: background-size 1s;
+  -webkit-transition: background-size 1s, -webkit-transform 1s;
+  transition: background-size 1s, -webkit-transform 1s;
+  transition: background-size 1s, transform 1s;
+  transition: background-size 1s, transform 1s, -webkit-transform 1s;
 }
 
 .card:hover {
   background-size: 120% 120%;
+  -webkit-transform: scale(107%);
+          transform: scale(107%);
 }
 
 .card-bg-1 {
@@ -119,5 +123,7 @@ header {
 
 .card-js {
   background-size: 120% 120%;
+  -webkit-transform: scale(107%);
+          transform: scale(107%);
 }
 /*# sourceMappingURL=main.css.map */
