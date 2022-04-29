@@ -55,7 +55,7 @@ header {
 }
 
 .intro {
-  background: url(https://picsum.photos/1300/200) center;
+  background: url(../image/intro.jpg) center;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -82,27 +82,27 @@ header {
 }
 
 .card-bg-1 {
-  background-image: url(https://picsum.photos/420/250?random=1);
+  background-image: url(../image/chapter-1.jpg);
 }
 
 .card-bg-2 {
-  background-image: url(https://picsum.photos/420/250?random=2);
+  background-image: url(../image/chapter-2.jpg);
 }
 
 .card-bg-3 {
-  background-image: url(https://picsum.photos/420/250?random=3);
+  background-image: url(../image/chapter-3.jpg);
 }
 
 .card-bg-4 {
-  background-image: url(https://picsum.photos/420/250?random=4);
+  background-image: url(../image/chapter-4.jpg);
 }
 
 .card-bg-5 {
-  background-image: url(https://picsum.photos/420/250?random=5);
+  background-image: url(../image/chapter-5.jpg);
 }
 
 .card-bg-6 {
-  background-image: url(https://picsum.photos/420/250?random=6);
+  background-image: url(../image/chapter-6.jpg);
 }
 
 .card-img-overlay {
