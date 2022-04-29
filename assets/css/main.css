@@ -75,6 +75,10 @@ header {
           align-items: center;
 }
 
+.intro-mini {
+  min-height: 110px;
+}
+
 .intro h1 {
   color: #ffffff;
   font-size: 66px;
