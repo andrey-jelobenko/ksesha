@@ -14,10 +14,13 @@ header {
 
 .logo {
   float: left;
+  position: relative;
+  top: 12px;
 }
 
 .slogan {
   font-size: 24px;
+  color: white;
 }
 
 .navigation {
