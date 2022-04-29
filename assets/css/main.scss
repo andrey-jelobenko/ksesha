@@ -21,6 +21,7 @@ header {
 .slogan {
   font-size: 24px;
   color: white;
+  font-style: italic;
 }
 
 .navigation {
@@ -28,20 +29,18 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  font-weight: bold;
 }
-.navigation li {
+.navigation a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #000000;
   padding: 0 25px 3px;
   margin-bottom: 7px;
 }
-.navigation li:not(:last-child) {
+.navigation a:not(:last-child) {
   border-right: 2px solid black;
 }
-
-.chapter:hover {
-  cursor: pointer;
-}
-.chapter:hover {
+.navigation a:hover {
   color: gray;
 }
 
@@ -52,6 +51,19 @@ header {
   width: 100%;
   min-height: 200px;
   box-shadow: 0 0 10px 0 black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.intro h1 {
+  color: #ffffff;
+  font-size: 66px;
+  font-style: italic;
+}
+
+.card-title {
+  font-style: italic;
+  font-size: 24px;
 }
 
 .card {
@@ -88,7 +100,6 @@ header {
 }
 .card-img-overlay:hover {
   backdrop-filter: none;
-  cursor: pointer;
 }
 .card-img-overlay-js {
   backdrop-filter: none;

@@ -1,12 +1,12 @@
 "use strict";
 
 const chapter = [
-  [".chapter-1", ".card.card-bg-1"],
-  [".chapter-2", ".card.card-bg-2"],
-  [".chapter-3", ".card.card-bg-3"],
-  [".chapter-4", ".card.card-bg-4"],
-  [".chapter-5", ".card.card-bg-5"],
-  [".chapter-6", ".card.card-bg-6"],
+  [".link-1", ".card.card-bg-1"],
+  [".link-2", ".card.card-bg-2"],
+  [".link-3", ".card.card-bg-3"],
+  [".link-4", ".card.card-bg-4"],
+  [".link-5", ".card.card-bg-5"],
+  [".link-6", ".card.card-bg-6"],
 ];
 
 function handleMouseOverOut(card_bgEl, card_backdropEl) {
