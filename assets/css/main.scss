@@ -12,16 +12,22 @@ header {
   z-index: 99;
 }
 
+.logo-block {
+  display: flex;
+}
 .logo {
-  float: left;
   position: relative;
-  top: 12px;
+  top: 10px;
+  left: 20px;
 }
 
 .slogan {
   font-size: 24px;
   color: white;
   font-style: italic;
+  position: relative;
+  left: 30px;
+  top: 15px;
 }
 
 .navigation {
