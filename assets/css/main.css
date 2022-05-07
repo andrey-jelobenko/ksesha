@@ -16,6 +16,20 @@ header {
   z-index: 99;
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  min-width: 100%;
+  z-index: 999;
+  background-color: #f3deb3;
+  -webkit-box-shadow: 0 0 15px 0 black;
+          box-shadow: 0 0 15px 0 black;
+}
+
+.dummy {
+  padding-top: 44px;
+}
+
 .logo-block {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -24,8 +38,8 @@ header {
 
 .logo {
   position: relative;
-  top: 10px;
-  left: 20px;
+  top: 5px;
+  left: 30px;
 }
 
 .slogan {
@@ -33,7 +47,7 @@ header {
   color: white;
   font-style: italic;
   position: relative;
-  left: 30px;
+  left: 50px;
   top: 15px;
 }
 

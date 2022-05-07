@@ -11,8 +11,8 @@
     <link rel="stylesheet" href="./assets/css/main.css" />
   </head>
   <body>
-    <header class="container-fluid">
-      <section class="container">
+    <header class="container-fluid gx-0">
+      <section class="container logo-block">
         <a href="./"
           ><img
             class="logo"
@@ -21,8 +21,8 @@
         /></a>
         <p class="slogan">Простой и запоминающийся слоган</p>
       </section>
-      <nav class="container">
-        <ul class="navigation">
+      <nav class="container-fluid" id="myHeader">
+        <ul class="navigation pt-2">
           <a href="./"><li>Главная</li></a>
           <a href="./history.html" class="link-1"
             ><li class="chapter-1">История</li></a
@@ -46,6 +46,7 @@
       </nav>
     </header>
     <main class="container">
+      <section class="content"></section>
       <section class="intro intro-mini"><h1>История</h1></section>
       <section>
         <nav class="nav-chapter">
@@ -220,6 +221,7 @@
     </main>
     <footer class="container-fluid mt-4"></footer>
   </body>
+  <script src="./assets/js/sticky.js"></script>
   <!-- Bootstrap js -->
   <script src="./assets/js/bootstrap.bundle.min.js"></script>
 </html>
