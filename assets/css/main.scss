@@ -1,9 +1,18 @@
+@font-face {
+  font-family: SitkaI; /* Имя шрифта */
+  src: url(../fonts/sitka-small-652.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+  font-family: SitkaR; /* Имя шрифта */
+  src: url(../fonts/sitka-small-599.ttf); /* Путь к файлу со шрифтом */
+}
 body {
   display: grid;
   min-height: 100vh;
   grid-template-rows: min-content auto min-content;
   background-color: #f2e9d8;
   font-size: 16px;
+  font-family: SitkaR;
 }
 
 header {
@@ -32,19 +41,18 @@ header {
 .logo-block {
   display: flex;
 }
-.logo {
-  position: relative;
-  top: 5px;
-  left: 30px;
+.logo-block a {
+  margin: 5px 0 0 30px;
 }
 
 .slogan {
   font-size: 24px;
   color: white;
   font-style: italic;
-  position: relative;
-  left: 50px;
-  top: 15px;
+  //   position: relative;
+  //   left: 50px;
+  //   top: 15px;
+  margin: 15px 0 0 50px;
 }
 
 .navigation {
@@ -65,6 +73,9 @@ header {
 }
 .navigation a:hover {
   color: gray;
+}
+.navigation a li {
+  font-family: SitkaI;
 }
 
 .intro {
@@ -90,7 +101,12 @@ header {
 
 .card-title {
   font-style: italic;
+  font-family: SitkaI;
   font-size: 24px;
+}
+
+.card-text {
+  font-family: SitkaI;
 }
 
 .card {
@@ -142,6 +158,9 @@ header {
 }
 .nav-link {
   padding: 7px 40px 3px;
+}
+button.nav-link {
+  font-family: SitkaI;
 }
 .without-nav {
   margin-top: 74px;
